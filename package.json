@@ -1,6 +1,7 @@
 {
   "name": "climby",
   "version": "0.1.0",
+  "homepage": "http://tikrue.github.io/climberino",
   "private": true,
   "dependencies": {
     "gh-pages": "^2.0.0",
