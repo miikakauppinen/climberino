@@ -11,8 +11,8 @@ class HeroesContainer extends React.Component<IProps> {
     return (
       <div>
         <Switch>
-          <Route path={'/heroes/:name'} component={HeroCard} />
-          <Route path={'/heroes/'} component={HeroList}/>
+          <Route exact path={'/heroes/:name'} component={HeroCard} />
+          <Route exact path={'/heroes'} component={HeroList}/>
         </Switch>
       </div>
     )

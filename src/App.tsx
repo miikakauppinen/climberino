@@ -7,7 +7,7 @@ class App extends React.Component {
   public render() {
     return (
       <div className="App">
-        <Router>
+        <Router basename={'/climberino'}>
           <Switch>
             <Route path={'/heroes'} component={HeroesContainer}/>
             <Route
